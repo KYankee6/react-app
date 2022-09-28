@@ -1,0 +1,146 @@
+.nav-items {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.nav-item {
+    display: inline-block;
+    height: 80px;
+    padding: 0 10px;
+    text-align: center;
+    min-width: 80px;
+    margin: 0 10px;
+    line-height: 80px;
+
+}
+
+.nav-item > a {
+    text-decoration: none;
+    font-size: small;
+    color: darkgray;
+}
+
+.intro_main {
+    position: relative;
+    z-index: 1;
+}
+
+.title_main {
+    position: absolute;
+    top: 135px;
+    left: 90px;
+    font-weight: bold;
+    font-size: 49px;
+    line-height: 1.4;
+    color: black;
+    text-align: left;
+}
+
+.title_sub1{
+    position: absolute;
+    top: 290px;
+    left: 92px;
+    font-size: 16px;
+    line-height: 1.95;
+    color: black;
+    opacity: .7;
+    text-align: left;
+}
+.title_sub2{
+    position: absolute;
+    top: 365px;
+    left: 92px;
+    font-size: 16px;
+    line-height: 1.95;
+    color: black;
+    opacity: .7;
+    text-align: left;
+}
+table {
+    width: 1600px;
+
+}
+.Main {
+    top: 80px;
+    width: 100%;
+    height: 100%;
+
+}
+
+td {
+    margin: 0 auto;
+
+}
+
+.TextBox {
+    height: 750px;
+    padding-top: 150px;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.ImgBox {
+    margin: 0 auto;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.L-Text {
+    display: block;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.S-text {
+    display: block;
+    padding-top: 30px;
+    font-size: small;
+    color: darkgray;
+}
+
+#logo {
+    font-size: large;
+    color: black;
+    margin-right: 100px;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
