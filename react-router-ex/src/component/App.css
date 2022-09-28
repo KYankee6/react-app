@@ -36,7 +36,7 @@
     text-align: left;
 }
 
-.title_sub1{
+.title_sub1 {
     position: absolute;
     top: 290px;
     left: 92px;
@@ -46,7 +46,8 @@
     opacity: .7;
     text-align: left;
 }
-.title_sub2{
+
+.title_sub2 {
     position: absolute;
     top: 365px;
     left: 92px;
@@ -56,10 +57,12 @@
     opacity: .7;
     text-align: left;
 }
+
 table {
     width: 1600px;
 
 }
+
 .Main {
     top: 80px;
     width: 100%;
@@ -88,11 +91,32 @@ td {
     padding-right: 20px;
 }
 
+.CombinationBox {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.carousel {
+    width: 280px;
+    height: 441px;
+    margin: 0 auto;
+
+
+}
+
+.Hover:hover {
+    background-color: midnightblue;
+    color: aliceblue;
+}
+
 .L-Text {
     display: block;
     font-size: xx-large;
     font-weight: bold;
 }
+
 .S-text {
     display: block;
     padding-top: 30px;
